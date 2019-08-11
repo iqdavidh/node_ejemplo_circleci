@@ -1,11 +1,11 @@
 {
   "name": "node_ejemplo_circleci",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Prueba de plataforma node_ejemplo_circle",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ",
-    "coverage": "nyc mocha test/*"
+    "test": "nyc mocha ",
+    "only_test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -34,7 +34,5 @@
       "**/*.spec.js"
     ]
   },
-
-
   "dependencies": {}
 }

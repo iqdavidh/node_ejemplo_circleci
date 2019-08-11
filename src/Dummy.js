@@ -3,7 +3,7 @@ const Dummy = {
     return true;
   } ,
   getNoCubierta(){
-    return false;
+    return -1;
   }
 };
 
