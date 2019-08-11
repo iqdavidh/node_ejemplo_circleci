@@ -3,4 +3,5 @@ language:
 node_js:
   - "stable"
 script:
-  - nyc npm test
+  - npm run codecov
+  - codecov
