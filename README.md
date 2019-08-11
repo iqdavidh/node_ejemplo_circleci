@@ -20,13 +20,19 @@ https://travis-ci.org/i
 ---
 Vulnerabilidad
 
+Ligado directemten a github 
+
 https://snyk.io
 
 [![Known Vulnerabilities](https://snyk.io/test/github/iqdavidh/node_ejemplo_circleci/badge.svg?targetFile=package.json)](https://snyk.io//test/github/iqdavidh/node_ejemplo_circleci?targetFile=package.json)
 
 
 ---
+Codecov
 
+https://codecov.io/
+
+Esta ligato a travis / circle ci
 
 [![codecov](https://codecov.io/gh/iqdavidh/node_ejemplo_circleci/branch/master/graph/badge.svg)](https://codecov.io/gh/iqdavidh/node_ejemplo_circleci)
 
