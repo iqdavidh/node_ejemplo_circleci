@@ -4,8 +4,8 @@
   "description": "Prueba de plataforma node_ejemplo_circle",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha ",
-    "only_test": "mocha"
+    "test": "mocha ",
+    "test_cov": "nyc mocha "
   },
   "repository": {
     "type": "git",
