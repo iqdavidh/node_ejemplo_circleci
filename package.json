@@ -1,0 +1,27 @@
+{
+  "name": "node_ejemplo_circleci",
+  "version": "1.0.0",
+  "description": "Prueba de plataforma node_ejemplo_circle",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/basic_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqdavidh/node_ejemplo_circleci.git"
+  },
+  "keywords": [],
+  "author": "davidh <david@productividadti.com.mx> (productividadti.com.mx)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iqdavidh/node_ejemplo_circleci/issues"
+  },
+  "homepage": "https://github.com/iqdavidh/node_ejemplo_circleci#readme",
+  "devDependencies": {
+    "mocha": "^6.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}
