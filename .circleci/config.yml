@@ -18,6 +18,10 @@ jobs:
 
     steps:
       - checkout
+      - run
+          name: Crear Artifacts
+          command: |
+          mkdir  /coverage
 
       # Download and cache dependencies
       - restore_cache:
@@ -36,6 +40,6 @@ jobs:
       # run tests!
       - run: npm run test
       - store_artifacts:
-          path: coverage
+          path: /coverage
 
 
