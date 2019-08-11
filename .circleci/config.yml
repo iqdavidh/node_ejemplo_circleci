@@ -18,9 +18,7 @@ jobs:
 
     steps:
       - checkout
-      - run:
-          command: |
-            mkdir /coverage;
+
 
       # Download and cache dependencies
       - restore_cache:
