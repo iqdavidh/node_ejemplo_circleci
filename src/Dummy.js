@@ -1,6 +1,9 @@
 const Dummy = {
   getValor(){
     return true;
+  } ,
+  getNoCubierta(){
+    return false;
   }
 };
 
