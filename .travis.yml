@@ -3,5 +3,4 @@ language:
 node_js:
   - "stable"
 script:
-  - npm run codecov
   - codecov
