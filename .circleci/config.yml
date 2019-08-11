@@ -19,7 +19,6 @@ jobs:
     steps:
       - checkout
       - run
-          name: Crear Artifacts
           command: |
           mkdir  /coverage
 
